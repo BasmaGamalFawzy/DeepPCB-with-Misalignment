@@ -1,0 +1,18 @@
+# Generated data - rebuild with `bash scripts/run_all.sh` (GitHub rejects files > 100 MB)
+sets/
+yolo/
+*.zip
+
+# LaTeX build by-products
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz
+
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
