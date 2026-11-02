@@ -1,0 +1,11 @@
+{
+ "images": 10200,
+ "missing_label": 0,
+ "count_mismatch": 0,
+ "class_mismatch": 0,
+ "channel_checked": 342,
+ "channel_fail": 0,
+ "aug_box_checked": 5338,
+ "aug_box_fail": 17,
+ "max_coord_error_px": 5.0003
+}

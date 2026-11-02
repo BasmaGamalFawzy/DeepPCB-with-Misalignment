@@ -1,0 +1,145 @@
+{
+ "val_groups": [
+  "group00041"
+ ],
+ "split_sizes": {
+  "train": 800,
+  "val": 200,
+  "test": 500
+ },
+ "top5_candidates": [
+  {
+   "groups": [
+    "group00041"
+   ],
+   "n_pairs": 200,
+   "frac": 0.2,
+   "l1_class_prop": 0.0592
+  },
+  {
+   "groups": [
+    "group44000",
+    "group50600",
+    "group77000"
+   ],
+   "n_pairs": 200,
+   "frac": 0.2,
+   "l1_class_prop": 0.0676
+  },
+  {
+   "groups": [
+    "group77000",
+    "group92000"
+   ],
+   "n_pairs": 211,
+   "frac": 0.211,
+   "l1_class_prop": 0.0777
+  },
+  {
+   "groups": [
+    "group44000",
+    "group50600",
+    "group92000"
+   ],
+   "n_pairs": 211,
+   "frac": 0.211,
+   "l1_class_prop": 0.0905
+  },
+  {
+   "groups": [
+    "group13000"
+   ],
+   "n_pairs": 198,
+   "frac": 0.198,
+   "l1_class_prop": 0.1758
+  }
+ ],
+ "class_counts": {
+  "train": {
+   "mousebite": 1032,
+   "spur": 888,
+   "copper": 778,
+   "pin-hole": 810,
+   "open": 1005,
+   "short": 825
+  },
+  "val": {
+   "mousebite": 347,
+   "short": 203,
+   "spur": 254,
+   "copper": 232,
+   "pin-hole": 221,
+   "open": 278
+  },
+  "test": {
+   "open": 659,
+   "short": 478,
+   "mousebite": 586,
+   "spur": 483,
+   "copper": 464,
+   "pin-hole": 470
+  }
+ },
+ "groups_per_split": {
+  "train": [
+   "group13000",
+   "group20085",
+   "group44000",
+   "group50600",
+   "group77000",
+   "group92000"
+  ],
+  "val": [
+   "group00041"
+  ],
+  "test": [
+   "group00041",
+   "group12000",
+   "group12100",
+   "group12300",
+   "group13000",
+   "group20085",
+   "group44000",
+   "group50600",
+   "group77000",
+   "group90100",
+   "group92000"
+  ]
+ },
+ "test_groups_unseen_in_trainval": [
+  "group12000",
+  "group12100",
+  "group12300",
+  "group90100"
+ ],
+ "duplicates_crossing_partitions": [
+  {
+   "a": "92000110",
+   "b": "92000114",
+   "split_a": "train",
+   "split_b": "test"
+  },
+  {
+   "a": "92000110",
+   "b": "92000118",
+   "split_a": "train",
+   "split_b": "test"
+  },
+  {
+   "a": "50600033",
+   "b": "50600065",
+   "split_a": "train",
+   "split_b": "test"
+  }
+ ],
+ "test_pairs_with_trainval_duplicate": [
+  "50600065",
+  "92000114",
+  "92000118"
+ ],
+ "native_misaligned_per_split": {
+  "train": 75,
+  "val": 8,
+  "test": 40
+ }
+}

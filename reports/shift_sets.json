@@ -1,0 +1,41 @@
+{
+ "seed": 6314,
+ "margin_px": 8,
+ "ignore_margin_px": 14,
+ "n_images": 7800,
+ "n_labels": 52088,
+ "images_per_split_condition": {
+  "test/r": 500,
+  "test/s0": 500,
+  "test/s1x": 500,
+  "test/s1y": 500,
+  "test/s2x": 500,
+  "test/s2y": 500,
+  "test/s3x": 500,
+  "test/s3y": 500,
+  "test/s5x": 500,
+  "test/s5y": 500,
+  "train/s0": 800,
+  "val/r": 200,
+  "val/s0": 200,
+  "val/s1x": 200,
+  "val/s1y": 200,
+  "val/s2x": 200,
+  "val/s2y": 200,
+  "val/s3x": 200,
+  "val/s3y": 200,
+  "val/s5x": 200,
+  "val/s5y": 200
+ },
+ "ignored_boxes_per_pair_total": 258,
+ "residual_stats": {
+  "shift_mag": [
+   0.251,
+   1.499
+  ],
+  "rot_deg": [
+   -0.5,
+   0.499
+  ]
+ }
+}

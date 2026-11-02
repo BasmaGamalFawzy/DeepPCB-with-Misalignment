@@ -1,0 +1,14 @@
+{
+ "checks": {
+  "pixel_exact": "5600/5600 pass",
+  "box_content": "36640/36640 pass",
+  "in_valid_region": "41220/41220 pass"
+ },
+ "residual_ecc_corner_error_px": {
+  "n": 120,
+  "median": 0.002,
+  "p95": 0.016,
+  "max": 0.05
+ },
+ "ecc_not_converged": 0
+}

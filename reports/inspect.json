@@ -1,0 +1,72 @@
+{
+ "n_pairs": {
+  "trainval": 1000,
+  "test": 500
+ },
+ "n_boxes": 10013,
+ "shapes": {
+  "(640, 640) | (640, 640)": 1443,
+  "(640, 640) | (640, 640, 3)": 33,
+  "(640, 640, 3) | (640, 640)": 19,
+  "(640, 640, 3) | (640, 640, 3)": 5
+ },
+ "class_counts": {
+  "test/copper": 464,
+  "test/mousebite": 586,
+  "test/open": 659,
+  "test/pin-hole": 470,
+  "test/short": 478,
+  "test/spur": 483,
+  "trainval/copper": 1010,
+  "trainval/mousebite": 1379,
+  "trainval/open": 1283,
+  "trainval/pin-hole": 1031,
+  "trainval/short": 1028,
+  "trainval/spur": 1142
+ },
+ "box_w_pct": [
+  18,
+  27,
+  35,
+  64,
+  173
+ ],
+ "box_h_pct": [
+  19,
+  25,
+  33,
+  56,
+  152
+ ],
+ "boxes_per_pair": [
+  1,
+  7,
+  15
+ ],
+ "groups": {
+  "trainval": {
+   "group20085": 291,
+   "group13000": 198,
+   "group00041": 200,
+   "group77000": 100,
+   "group92000": 111,
+   "group50600": 50,
+   "group44000": 50
+  },
+  "test": {
+   "group20085": 34,
+   "group13000": 18,
+   "group00041": 21,
+   "group77000": 7,
+   "group92000": 9,
+   "group50600": 29,
+   "group44000": 50,
+   "group90100": 74,
+   "group12100": 146,
+   "group12300": 98,
+   "group12000": 14
+  }
+ },
+ "problems": [],
+ "n_problems": 0
+}
