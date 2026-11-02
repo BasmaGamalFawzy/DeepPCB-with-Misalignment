@@ -18,5 +18,5 @@ rows.sort(key=lambda r: r['image'])
 w = csv.DictWriter(open(os.path.join(d, 'train_aug_transforms.csv'), 'w', newline=''), fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
 PY
 echo "== 09_check_yolo"; python3 "$HERE/scripts/09_check_yolo.py"
-echo "== 10_report_figures"; python3 "$HERE/scripts/10_report_figures.py"
-echo "== 11_false_difference_stats"; python3 "$HERE/scripts/11_false_difference_stats.py"
+#echo "== 10_report_figures"; python3 "$HERE/scripts/10_report_figures.py"
+#echo "== 11_false_difference_stats"; python3 "$HERE/scripts/11_false_difference_stats.py"
