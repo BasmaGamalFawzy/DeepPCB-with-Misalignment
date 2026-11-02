@@ -70,7 +70,7 @@ with classes 0–5 = open, short, mousebite, spur, copper, pin-hole.
 
 | Zip | Contents | Needed for |
 |---|---|---|
-| `yolo_train.zip` (363 MB) | `train_noaug` (800), `train_aug` (2400), `val_s0` (200), `data_noaug.yaml`, `data_aug.yaml` | training both runs |
+| `yolo_train.zip`  | `train_noaug` (800), `train_aug` (2400), `val_s0` (200), `data_noaug.yaml`, `data_aug.yaml` | training both runs |
 | `yolo_eval_val.zip` | val, all shifted conditions + residual | threshold checks / analysis on val |
 | `yolo_eval_test_a.zip`, `_b.zip` | test, all 10 conditions | the single final test evaluation |
 
