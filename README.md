@@ -26,7 +26,7 @@ Conditions: `s0` (as given), `s1x s1y s2x s2y s3x s3y s5x s5y` (1/2/3/5 px along
 `r` (residual: sub-pixel translation 0.25–1.5 px in a random direction + rotation in ±0.5°).
 Val and test have all 10 conditions (200 × 10, 500 × 10 images); train has `s0` only (800) — augment on the fly.
 
-## How each ProposalV4 requirement was implemented
+## How each requirement was implemented
 - **Official split kept**: 1000 trainval / 500 test.
 - **~20 % validation, grouped, before augmentation**: unit = DeepPCB group folder (the only source-board ID).
   All subsets of trainval groups with 17–23 % of pairs were scored by L1 distance of class proportions to trainval;
