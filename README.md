@@ -85,5 +85,4 @@ with classes 0–5 = open, short, mousebite, spur, copper, pin-hole.
 ## Source and citation
 This repository builds on the DeepPCB dataset
 ([github.com/tangsanli5201/DeepPCB](https://github.com/tangsanli5201/DeepPCB)), released under the MIT licence.
-If you use it, please cite: S. Tang, F. He, X. Huang, and J. Yang, "Online PCB defect detector on a new
-PCB defect dataset," *arXiv:1902.06197*, 2019. https://arxiv.org/abs/1902.06197
+S. Tang, F. He, X. Huang, and J. Yang, "Online PCB defect detector on a new PCB defect dataset," *arXiv:1902.06197*, 2019. https://arxiv.org/abs/1902.06197
